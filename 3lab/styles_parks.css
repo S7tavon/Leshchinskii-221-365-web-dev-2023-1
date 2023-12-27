@@ -22,7 +22,7 @@ nav ul {
 }
 
 nav li {
-    flex: 1;
+    flex:1; /* отвечает за расположение дост. муз. рест.  */
     text-align: center;
 }
 
