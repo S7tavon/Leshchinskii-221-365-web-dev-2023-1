@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Форма обратной связи</h1>
-    <form action="https://httpbin.org/post" method="POST">
+    <form action="https://httpbin.org/post" method="post"> /* это строка указывает что данные отправлены методом post  по указанной Url-ссылке */
         <div class="container">
             <label for="uname"><b>Логин</b></label>
             <input type="text"  name="uname" required>
@@ -21,33 +21,35 @@
                 <label for="remember">Запомнить меня</label><br><br>
             </label>
           </div>
-        <label for="name">ФИО:</label>
-        <input type="text" id="name" name="name" required><br><br>
+        <label for="name">ФИО:</label> /* for = "name" указывает что ФИО свзана с полем ввода с идентификатором"name" */
+        <input type="text" id="name" name="name" required><br><br>/* это поле ввода типа "text" для ввода ФИО. id="name" задает идентификатор поля ввода "name", name="name" указывает имя поля ввода для отправки данных, required указывает, что поле обязательно для заполнения. */
         
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br><br>
         
         <label>Откуда узнали о нас:</label><br>
-        <input type="radio" id="radio1" name="source" value="advertisement"> <label for="radio1">Реклама</label><br>
-        <input type="radio" id="radio2" name="source" value="social networks"> <label for="radio2">Соцсети</label><br>
+        <input type="radio" id="radio1" name="source" value="advertisement"> <label for="radio1">Реклама</label><br> /* Это радиокнопка для выбора источника "Реклама" id - задает идентификаторрадиокнопки, name -  указывает имя группы радиокнопок для отправки данных, Value - задает значение которое будет отправлено при выборе радиокнопки */
+        <input type="radio" id="radio2" name="source" value="social networks"> <label for="radio2">Соцсети</label><br> 
         <input type="radio" id="radio3" name="source" value="other"> <label for="radio3">Другое</label><br><br>
         
-        <label for="type">Тип обращения:</label>
+        <label for="type">Тип обращения:</label>/* Это метка для элемента выбора типа обращения. for="type" указывает, что метка связана с элементом выбора с идентификатором "type". */
         <select id="type" name="type" required>
-            <option value="complaint">Жалоба</option>
+            <option value="complaint">Жалоба</option>/* это опции выбора внутри элемента SELECT. Значение каждой опции указывается в атибуте VALUE*/
             <option value="proposal">Предложение</option>
+            <option value="question">Вопрос</option>
+            <option value="question">Благодарность</option>
+            <option value="question">Другое</option>
         </select><br><br>
         
-        <label for="message">Текст сообщения:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-        
-        <label for="attachment">Вложения:</label>
+        <label for="message">Текст сообщения:</label><br>/* это метка для поля ввода текста сообщения */
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>/* Это поле  ввода сообщения */
+        <label for="attachment">Вложения:</label> /* Это метка для поля ввода файла */
         <input type="file" id="attachment" name="attachment"><br><br>
         
-        <input type="checkbox" id="consent" name="consent" required>
+        <input type="checkbox" id="consent" name="consent" required> /* Это флажок для подтверждения согласия на обработку персональных данных. required указывает что флажок должен быть выбран */
         <label for="consent">Даю согласие на обработку персональных данных</label><br><br>
         
-        <input type="submit" value="Отправить">
+        <input type="submit" value="Отправить"> /* Это кнопка отправки формы */
     </form>
 </body>
 </html>
