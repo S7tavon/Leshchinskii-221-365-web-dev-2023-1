@@ -30,13 +30,30 @@ input, select, textarea {
 }
 
 input[type="submit"] {
-    background-color: #b92121;
+    background-color: #f10202;
     color: rgb(255, 255, 255);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
+a.button {
+    display: inline-block;
+    background: #e6190b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 100;
+  }
+  
+  div {
+    margin: 14px;
+    text-align: center;
+  }
 /*цвет кнопки"Отправить"*/
 input[type="submit"]:hover {
     background-color: #1c1d1ca4;

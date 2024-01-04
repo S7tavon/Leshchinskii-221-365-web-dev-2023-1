@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('reg.jpg'); 
+    background-size: cover;
+    color: rgb(214, 20, 20);
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    background-color: rgb(56, 160, 167);
+    padding: 40px;
+    border-radius: 50px;
+    margin: 10px auto;
+    height: 320px;
+}
+
+label, input, select, textarea {
+    display: block;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    background-color: #e99b0a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="checkbox"] {
+    display: none; 
+}
+
+input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #c84e16;
+    background-color: white;
+    border-radius: 3px;
+}
+
+input[type="checkbox"]:checked + label:before {
+    background-color:rgb(225, 240, 12);
+    border: 2px solid rgb(223, 75, 17);
+}
+a{
+    display: inline-block;
+    background: #e6190b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 100;
+}

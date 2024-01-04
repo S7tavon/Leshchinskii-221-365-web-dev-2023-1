@@ -8,19 +8,7 @@
 </head>
 <body>
     <h1>Форма обратной связи</h1>
-    <form method="post" action="https://httpbin.org/post" enctype="multipart/form-data"> <!-- это строка указывает что данные отправлены методом post  по указанной Url-ссылке -->
-        <div class="container">                                                          <!-- multipart/form-data -- это тип контента для отпарвки файлов и других бинарных данный через Http-запрос-->
-            <label for="uname"><b>Логин</b></label>
-            <input type="text"  name="uname" required>
-        
-            <label for="psw"><b>Пароль</b></label>
-            <input type="password"  name="psw" required>
-                
-            <label>
-                <input type="checkbox" id="remember" name="remember" required>
-                <label for="remember">Запомнить меня</label><br><br>
-            </label>
-          </div>
+    <form method="post" action="https://httpbin.org/post" enctype="multipart/form-data" > <!-- это строка указывает что данные отправлены методом post  по указанной Url-ссылке -->
         <label for="name">ФИО:</label> <!-- for = "name" указывает что ФИО свзана с полем ввода с идентификатором"name" -->
         <input type="text" id="name" name="name" required><br><br><!-- это поле ввода типа "text" для ввода ФИО. id="name" задает идентификатор поля ввода "name", name="name" указывает имя поля ввода для отправки данных, required указывает, что поле обязательно для заполнения. -->
         
@@ -50,6 +38,11 @@
         <label for="consent">Даю согласие на обработку персональных данных</label><br><br>
         
         <input type="submit" value="Отправить"> <!-- Это кнопка отправки формы -->
+        
+        <div>
+            <a class="button" href="2.2lab.html">Зарегестрироваться</a>
+        
+          </div>
     </form>
 </body>
 </html>
