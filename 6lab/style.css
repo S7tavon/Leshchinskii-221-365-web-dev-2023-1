@@ -1,0 +1,9 @@
+.card-img-top {
+    width: 100%; /* Ширина */
+    height: 200px; /* Фиксированная высота */
+    object-fit: cover; /* Обрезка изображений  */
+  }
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}

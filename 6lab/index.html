@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link  href="style.css" rel="stylesheet">
+  
+  <title>Шторм</title>
+</head>
+<body>
+  <!-- Шапка с навигацией -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Шторм H2O</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#main">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pool">бассейны</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#inf">контакты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-form">Связь</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="row mt-4 align-items-center" id="main">
+      <div class="col-lg-8">
+        <h1 class="mt-3">Шторм</h1>
+        <p>Единственная школа, чьи ученики являются чемпионами Москвы сразу в 2-х видах спорта, по плаванию и водному поло!</p>
+      </div>
+      <div class="col-lg-4">
+        <img src="img/Logo.png" class="img-fluid" alt="Логотип">
+      </div>
+    </div>
+
+    <!-- Раздел с бассейнами -->
+    <section class="mt-5" id="pool">
+      <h2 class="mt-3">Бассейны</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/1Pool.jpg" class="card-img-top" alt="Некрасовка">
+            <div class="card-justify-content-start">
+              <h5 class="card-title">Некрасовка</h5>
+              <p class="card-text">ул. Покровская, дом 22<br>
+                Метро: Некрасовка</p>
+              <a href="https://yandex.ru/map-widget/v1/?um=constructor%3A273d1317413ad5a05bb4af482c79365b0aacae26bfe4c6473c79380f539d558b&source=constructor" class="btn btn-primary">Открыть карту</a>
+            </div>
+          </div>
+        </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/2pool.jpg" class="card-img-top" alt="Волна">
+        <div class="card-justify-content-center">
+          <h5 class="card-title">Волна</h5>
+          <p class="card-text">ул. Чертановская, дом 45Б<br>
+            Метро: Пражская</p>
+          <a href="https://yandex.ru/map-widget/v1/?um=constructor%3A58b53d62de284aad25e4944269ad546eb80087ccfbc36a3d2783413fe2becc6f&source=constructor" class="btn btn-primary">Открыть карту</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/3pool.jpg" class="card-img-top" alt="Качаловский">
+        <div class="card-justify-content-end">
+          <h5 class="card-title">Качаловский</h5>
+          <p class="card-text">б-р Дмитрия Донского, 14<br>
+            Метро: Бульвар Дмитрия Донского</p>
+          <a href="https://yandex.ru/map-widget/v1/?um=constructor%3A2769d3dc134184f87aa5b4f98b9a7d5a6a3618f2155f910bbc6d28cdbe6b3b29&source=constructor" class="btn btn-primary">Открыть карту</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/4pool.jpg" class="card-img-top" alt="Коломенский">
+        <div class="card-justify-content-start">
+          <h5 class="card-title">Коломенский</h5>
+          <p class="card-text">проезд. Коломенский, дом 15а<br>
+            Метро: Каширская</p>
+          <a href="https://yandex.ru/map-widget/v1/?um=constructor%3Ae1675458c0c031209a68c3c204cd332ce67ef6c8ebaf89aa4463972f08bdfbfb&source=constructor" class="btn btn-primary">Открыть карту</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/5pool.jpg" class="card-img-top" alt="МГТУ им. Н.Э. Баумана">
+        <div class="card-justify-content-center">
+          <h5 class="card-title">МГТУ им. Н.Э. Баумана</h5>
+          <p class="card-text">Госпитальная наб. д.4 стр.1<br>
+            Метро: Бауманская, Электрозаводская</p>
+          <a href="https://yandex.ru/map-widget/v1/?um=constructor%3A53be9ccdac6bdafe47466e1d65eee1781704134b2218382577ddff336171d4c5&source=constructor" class="btn btn-primary">Открыть карту</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/6pool.jpg" class="card-img-top" alt="МИСиС">
+        <div class="card-justify-content-end">
+          <h5 class="card-title">МИСиС</h5>
+          <p class="card-text">ул. Профсоюзная, д. 83Б<br>
+            Метро: Беляево</p>
+          <a href="https://yandex.ru/map-widget/v1/?um=constructor%3Ae591189b53964ee1ef57eb7312088ff35b6f189a10fdf951ece80b9eb6aec529&source=constructor" class="btn btn-primary">Открыть карту</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      </div>
+    </section>
+
+
+    <div class="row mt-4" id="contact-form">
+      <div class="col-md-4 offset-md-1">
+        <h2>Свяжитесь с нами</h2>
+        <form>
+          <div class="mt-2">
+            <label for="nameInput" class="form-label">Ваше имя</label>
+            <input type="text" class="form-control" id="nameInput" placeholder="Введите ваше имя">
+          </div>
+          <div class="mt-2">
+            <label for="emailInput" class="form-label">Ваш email</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="Введите ваш email">
+          </div>
+          <div class="mt-2">
+            <label for="messageTextarea" class="form-label">Ваше сообщение</label>
+            <textarea class="form-control" id="messageTextarea" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+      </div>
+      <div class="col-md-3" id="inf">
+        <h2>Контакты</h2>
+        <div class="headline w-50 mx-auto bg-white"></div> 
+ 
+        <div class="container-fluid"> 
+            <div class="row justify-content-center mt-3"> 
+ 
+                <div class="col-sm-30 mt-3 text-center"> 
+                    <a class="custom-link" href="https://t.me/shtormh2o" target="_blank"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" height="70px" width="60px" viewBox="0 0 496 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z"/></svg>
+                        <p class="fs-3 fw-light">Telegram</p> 
+                    </a> 
+                </div> 
+                <div class="col-sm-2 mt-2 text-center"> 
+                    <a class="custom-link" href="https://vk.com/public162393571" target="_blank"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" height="70px" width="60px" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M31.5 63.5C0 95 0 145.7 0 247V265C0 366.3 0 417 31.5 448.5C63 480 113.7 480 215 480H233C334.3 480 385 480 416.5 448.5C448 417 448 366.3 448 265V247C448 145.7 448 95 416.5 63.5C385 32 334.3 32 233 32H215C113.7 32 63 32 31.5 63.5zM75.6 168.3H126.7C128.4 253.8 166.1 290 196 297.4V168.3H244.2V242C273.7 238.8 304.6 205.2 315.1 168.3H363.3C359.3 187.4 351.5 205.6 340.2 221.6C328.9 237.6 314.5 251.1 297.7 261.2C316.4 270.5 332.9 283.6 346.1 299.8C359.4 315.9 369 334.6 374.5 354.7H321.4C316.6 337.3 306.6 321.6 292.9 309.8C279.1 297.9 262.2 290.4 244.2 288.1V354.7H238.4C136.3 354.7 78 284.7 75.6 168.3z"/></svg>
+                        <p class="fs-3 fw-light">VK</p> 
+                    </a> 
+                </div> 
+                
+ 
+            </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="py-3 bg-primary text-white">
+    <div class="container text-center">
+      <p class="mb-0">Copyright* &copy; Шторм</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
